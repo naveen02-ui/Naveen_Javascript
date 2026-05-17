@@ -1,0 +1,25 @@
+let score = "naveen"
+
+console.log(typeof score);
+console.log(typeof (score));    // can be expressed as ()
+
+let valueInNumber = Number(score)
+
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
+
+// "33" => 33
+// "33abc" => NaN which means not a number
+// true => 1; false => 0
+
+let isLoggedIn = "naveen"
+
+let booleanIsLoggedIn = Boolean(isLoggedIn) // bolean is true or name and false represent 1 and 0 respectively
+console.log(booleanIsLoggedIn);
+
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber)
+console.log(typeof someNumber)
