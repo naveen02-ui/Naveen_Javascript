@@ -32,3 +32,30 @@ console.log(typeof bigNumber);  // to identify the type of datatype
 console.log(typeof outsideTemp);
 console.log(typeof scoreValue);
 console.log(typeof anotherid);
+
+
+
+//**********************************//
+
+// Stack (used in Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "Naveen Techno"
+
+let anothername = myYoutubename
+anothername = "technology"
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "naveen@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
