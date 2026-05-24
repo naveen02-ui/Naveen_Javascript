@@ -23,5 +23,5 @@ console.log(undefined < 0); // We avoid this
 
 console.log("2" == 2);
 
-
+ 
 
