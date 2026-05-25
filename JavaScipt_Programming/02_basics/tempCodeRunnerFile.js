@@ -1,0 +1,1 @@
+object.freeze(JSuser)

@@ -22,4 +22,3 @@ JSuser.email = "naveen@google.com"
 object.freeze(JSuser) // it will freeze the object and we cannot change the properties of the object
 JSuser.email = "naveen@microsoft.com"
 console.log(JSuser);
-
