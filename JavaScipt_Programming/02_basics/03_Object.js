@@ -27,4 +27,5 @@ JSuser.greeting = function(){
     console.log("Hello JS user");
 }
 
-console.log(JSuser.greeting());
+console.log(JSuser.greeting()); // it will call the greeting function and print "Hello JS user" with undefined because the function does not return anything
+console.log(JSuser.greeting); // it will print the function definition because we are not calling the function, we are just accessing the function property of the object
