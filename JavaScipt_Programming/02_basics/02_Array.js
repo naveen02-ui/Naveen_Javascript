@@ -18,3 +18,13 @@ console.log(all_new_heroes);
 const another_array = [2, 4, 5, 6, [4, 5, 6], 6, 7, [6]]
 const real_another_array = another_array.flat(Infinity) // it will flat the array and remove the nested array
 console.log(real_another_array);
+
+
+console.log(Array.isArray("Hitesh")) // it will check the given value is array or not and return true or false
+console.log(Array.from("Hitesh")) // it will convert string to array
+console.log(Array.from({ name: "Hitesh" })) // it will convert object to array but it will return empty array because object is not iterable
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+console.log(Array.of(score1, score2, score3))
