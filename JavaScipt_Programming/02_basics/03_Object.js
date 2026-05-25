@@ -19,6 +19,7 @@ console.log(JSuser["Full name"]); // it is used to access property with space or
 console.log(JSuser[mySym]); // Important case to access symbol property
 
 JSuser.email = "naveen@google.com"
-object.freeze(JSuser) // it will freeze the object and we cannot change the properties of the object
-JSuser.email = "naveen@microsoft.com"
-console.log(JSuser);
+// object.freeze(JSuser) // it will freeze the object and we cannot change the properties of the object
+// JSuser.email = "naveen@microsoft.com"
+console.log(JSuser); // it will not change the email property because the object is frozen
+
