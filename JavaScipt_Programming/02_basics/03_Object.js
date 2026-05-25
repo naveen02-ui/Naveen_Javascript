@@ -23,3 +23,8 @@ JSuser.email = "naveen@google.com"
 // JSuser.email = "naveen@microsoft.com"
 console.log(JSuser); // it will not change the email property because the object is frozen
 
+JSuser.greeting = function(){
+    console.log("Hello JS user");
+}
+
+console.log(JSuser.greeting());
