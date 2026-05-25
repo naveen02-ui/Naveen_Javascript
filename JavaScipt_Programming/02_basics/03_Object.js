@@ -26,6 +26,9 @@ console.log(JSuser); // it will not change the email property because the object
 JSuser.greeting = function(){
     console.log("Hello JS user");
 }
-
+JSuser.greetingtwo = function(){
+    console.log(`Hello JS user, ${this.name}`); // to use template literal we used ${} to access the name property of the object using this keyword symbol ` (tilt)
+    }
 console.log(JSuser.greeting()); // it will call the greeting function and print "Hello JS user" with undefined because the function does not return anything
 console.log(JSuser.greeting); // it will print the function definition because we are not calling the function, we are just accessing the function property of the object
+console.log(JSuser.greetingtwo()); 
