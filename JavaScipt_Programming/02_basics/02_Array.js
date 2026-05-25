@@ -9,3 +9,10 @@ console.log(marvel_heroes[4][1]);
 marvel_heroes.concat(dc_heroes) // also add dc heroes to the marvel heroes but it will not change the original array
 console.log(marvel_heroes);
 
+const all_heroes = marvel_heroes.concat(dc_heroes);
+console.log(all_heroes); // also add dc heroes to the marvel heroes but it will not change the original array
+
+const all_new_heroes = [...marvel_heroes, ...dc_heroes];
+console.log(all_new_heroes);
+
+const
