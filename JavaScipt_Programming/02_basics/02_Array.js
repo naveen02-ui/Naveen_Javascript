@@ -4,3 +4,4 @@ const dc_heroes = ['superman', 'batman',]
 marvel_heroes.push('dc_heroes') // it will add dc heroes to the marvel heroes
 console.log(marvel_heroes);
 
+console.log(marvel_heroes[0][2]);
