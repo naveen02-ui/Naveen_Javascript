@@ -15,4 +15,6 @@ console.log(all_heroes); // also add dc heroes to the marvel heroes but it will 
 const all_new_heroes = [...marvel_heroes, ...dc_heroes];
 console.log(all_new_heroes);
 
-const
+const another_array = [2, 4, 5, 6, [4, 5, 6], 6, 7, [6]]
+const real_another_array = another_array.flat(Infinity) // it will flat the array and remove the nested array
+console.log(real_another_array);
